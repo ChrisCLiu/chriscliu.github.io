@@ -143,7 +143,17 @@ body {
     }
   }
 }
-
+.down1 {
+  color: #FFF;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+}
 .down {
   color: #FFF;
   position: absolute;
