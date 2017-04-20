@@ -282,11 +282,11 @@ transition:color .3s ease-in,background-color .3s ease-in,border-color .3s ease-
 }
 
 .footer{
-background:#1a222c;
+background:#fff;
 padding:10px 0;
 margin-top:100px;
 text-align:center;
-color:#fff
+color:#1a222c
 }
 
 .footer .love{
