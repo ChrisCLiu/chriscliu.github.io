@@ -53,7 +53,7 @@ body {
         top: 0
     }
 }
-#particles-js_blog {
+#particles-js-blog {
   background: $main;
   display: block;
   vertical-align: bottom;
@@ -63,12 +63,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  .particles-js-canvas-el {
+  .particles-js-blog-canvas-el {
     width:100vw !important;
     height:15vh !important;
   }
 }
-.content_blog {
+.content-blog {
   z-index: 1;
   text-align: center;
   color:#FFF;
@@ -78,7 +78,7 @@ body {
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  .site-title_blog{
+  .site-title-blog{
     font-size: 15px;
     display: block;
     text-align = left;
@@ -90,7 +90,7 @@ body {
     }
   }
  }
- .icons-header_blog {
+ .icons-header-blog {
   display: flex;
   justify-content: center;
   text-align: right;
