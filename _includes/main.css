@@ -46,11 +46,60 @@ background:#1a222c;
 display:block;
 vertical-align:bottom;
 width:100vw;
-min-height:10vh;
+min-height:100vh;
 background-repeat:no-repeat;
 background-size:cover;
 background-attachment:fixed
 }
+
+#particles-js-blog{
+background:#1a222c;
+display:block;
+vertical-align:bottom;
+width:100vw;
+height: 15vh;
+min-height:15vh;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed
+}
+#particles-js-blog .particles-js-blog-canvas-el{
+width:100vw!important;
+height:15vh!important
+}
+
+#particles-js-blog .particles-js-blog-canvas-el{
+width:100vw!important;
+height:100vh!important
+}
+
+.content-blog{
+z-index:1;
+text-align:left;
+color:#fff;
+position:absolute;
+top:50%;
+left:50%;
+margin:0 auto;
+-webkit-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%)
+}
+
+.content-blog .site-title-blog{
+font-size:15px;
+display:block;
+line-height:1
+}
+
+@media only screen and (min-width:768px){
+.content-blog .site-title-blog{
+margin:0;
+font-size:100px
+}
+
+
+}
+
 
 .content{
 z-index:1;
@@ -69,17 +118,6 @@ font-size:50px;
 display:block;
 line-height:1
 }
-
-.content .title-blog{
-	font-size: 15px;
-	text-align: left;
-}
-
-.content .title-header{
-	font-size: 15px;
-	text-align: right;
-}
-
 
 @media only screen and (min-width:768px){
 .content .site-title{
