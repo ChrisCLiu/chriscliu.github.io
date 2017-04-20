@@ -1,11 +1,12 @@
 # Site settings
-title: Welcome
+title: Welcome to Xiao Liu's Space!
 description: A personal websie of Xiao Liu
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Xiao Liu
+year: 2017
 user_description: Currently, I am a undergraduate major in Computer Science in Shanghai Jiao Tong University. I graduated from Urumqi No.1 Senior High school, where I met my beloved.  
 user_title: Undergraduate from SJTU
 email: chrisliu9603@gmail.com
@@ -15,6 +16,6 @@ gplus_username:
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-97687430-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
