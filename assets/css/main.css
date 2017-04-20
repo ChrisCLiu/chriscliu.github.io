@@ -64,19 +64,27 @@ margin:0 auto;
 transform:translate(-50%,-50%)
 }
 
+.content-blog{
+ text-align: left;
+ position: relative;
+ width: 100vw;
+ height: 15vh;
+}
+
 .content .site-title{
 font-size:50px;
 display:block;
 line-height:1
 }
 
-.content .title-blog{
-	font-size: 15px;
+.content-blog .title-blog{
+	font-size: 45px;
 	text-align: left;
+	color: #ffffff;
 }
 
-.content .title-header{
-	font-size: 15px;
+.content-blog .title-header{
+	font-size: 30px;
 	text-align: right;
 }
 
