@@ -227,6 +227,10 @@ font-size:16px;
 margin:10px auto
 }
 
+.intro{
+	text-align: left;
+}
+
 .user-projects{
 margin:40px auto
 }
